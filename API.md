@@ -5,7 +5,7 @@ Documentation de l'API pour intégrer le serveur de mods avec un launcher Minecr
 ## URL de base
 
 ```
-http://votre-serveur:8085
+https://storage.lostnatchoschipi.fr
 ```
 
 ---
@@ -120,7 +120,7 @@ import requests
 import hashlib
 import os
 
-SERVER_URL = "http://votre-serveur:8085"
+SERVER_URL = "https://storage.lostnatchoschipi.fr"
 MODS_DIR = "./mods"
 
 def get_manifest():
@@ -202,7 +202,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 
-const SERVER_URL = 'http://votre-serveur:8085';
+const SERVER_URL = 'https://storage.lostnatchoschipi.fr';
 const MODS_DIR = './mods';
 
 async function getManifest() {
